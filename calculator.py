@@ -1,13 +1,15 @@
-1stnumber= input int(("Enter the first number  "))
-2ndnumber= input int(("Enter the second number  "))
+frstNum=  int(input("Enter the first number  "))
+scnDNumb=  int(input("Enter the second number  "))
 opration= input ("Choose the operation (+, -, /, *)  ")
+answer=0
 if opration== "+":
-    print 1stnumber + 2ndnumber
+	  answer= frstNum + scnDNumb
 elif opration== "-":
-	print 1stnumber - 2ndnumber
+	  answer= frstNum - scnDNumb
 elif opration== "/":
-	print 1stnumber / 2ndnumber
+	  answer= frstNum / scnDNumb
 elif opration== "*":
-	print 1stnumber * 2ndnumber
+	  answer= frstNum * scnDNumb
 else:
-	print "Choose the operation (+, -, /, *)"
+	  answer= ("Error Choose the opertion (+, -, /, *)")
+print ("the answer is  "+ str(answer))
