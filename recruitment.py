@@ -58,4 +58,4 @@ if age_chck and experiance_check and skill_check == True:
 else:
 	print ("sorry " + name_input + " your aplication was rejected")
 
-print(cv)
+
